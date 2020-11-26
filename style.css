@@ -1,0 +1,208 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+. {
+	background: -webkit-linear-gradient(bottom, #2dbd6e, #a6f77b);
+  	background-repeat: no-repeat;
+}
+
+.Medsos {
+	padding: 5px 0;
+	background-color: green;
+
+}
+.Medsos ul li {
+	display: inline-block;
+	color: #fff;
+	margin-right: 15px;
+}
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.container:after {
+	content:'';
+	display: block;
+	clear:both;
+}
+
+header h1 {
+	float: left;
+	padding: 15px 0;
+	color: green;
+}
+
+header ul {
+	float: right;
+}
+
+header ul li {
+	display: inline-block;
+}
+
+header ul li a {
+	padding:25px 10px;
+	display: inline-block;
+}
+
+header ul li a:hover {
+	background-color: yellowgreen;
+	color: white;
+}
+
+.active {
+	background-color: green;
+	color: white;
+}
+
+.gambar{
+	height: 60vh;
+	background-image: url(../img/gambar.webp);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+
+.gambar:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(17, 148, 49 , .3);
+}
+
+section {
+	padding: 50px 0;
+}
+
+section h2 {
+	text-align: center;
+	color: green;
+	padding: 20px 0;
+	margin-bottom: 10px;
+}
+
+section h3 {
+	text-align: center;
+	padding: 20px 0;
+	color: green;
+	margin-bottom: 10px;
+}
+
+.about,
+.service {
+	padding-bottom: 100px;
+}
+
+.about p {
+	color: #666;
+	word-spacing: 2px;
+	line-height:30px;
+	text-align: center;
+}
+
+.about li {
+	color: #666;
+	word-spacing: 2px;
+	line-height: 30px;
+	text-align: left;
+	align-self: center;
+	align-content: center;
+}
+
+.service {
+	background-color: #f9f9f9;
+}
+
+.box {
+	color: green;
+
+}
+
+.box .col-3 {
+	width: 33%;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+
+}
+
+.box .col-4 {
+	width: 25%;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+
+}
+
+.icon {
+	border: 1px solid;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 70px;
+	font-size: 25px;
+	margin: 0 auto;
+
+}
+
+.box .col-3 h4 {
+	margin: 20px 0;
+
+}
+
+.box .col-4 h4 {
+	margin: 20px 0;
+
+}
+
+.box button {
+}
+
+footer {
+	padding: 30px 0;
+	background-color: black;
+	color:white;
+	text-align: center;
+	position: relative;
+}
+
+.bg-loader {
+	background-color: #eee;
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 9999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.label {
+	background-color: green;
+	color:white;
+	margin-top: 10px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
